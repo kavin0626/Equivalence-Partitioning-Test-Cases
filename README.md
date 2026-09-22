@@ -1,5 +1,6 @@
-    https://1drv.ms/x/c/8E267B6AC18866C8/AUYUuc9cydRNoeeaOWR5oXk?e=mzrSyd
-# Equivalence Partitioning Testing Exercises
+```
+ https://1drv.ms/x/c/8E267B6AC18866C8/AUYUuc9cydRNoeeaOWR5oXk?e=QoU7UG
+```# Equivalence Partitioning Testing Exercises
 
 ```
 Name:Kavinraj.S
