@@ -1,6 +1,9 @@
     https://1drv.ms/x/c/8E267B6AC18866C8/AUYUuc9cydRNoeeaOWR5oXk?e=mzrSyd
 # Equivalence Partitioning Testing Exercises
 
+```
+Name:Kavinraj.S
+```
 ## About the Project
 
 This project contains **Equivalence Partitioning (EP)** test cases for different application requirements.
