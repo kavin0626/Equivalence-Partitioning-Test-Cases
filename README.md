@@ -1,89 +1,91 @@
-                   https://1drv.ms/x/c/8E267B6AC18866C8/AUYUuc9cydRNoeeaOWR5oXk?e=9KeN9P
-# Equivalence Partitioning Test Cases
+    https://1drv.ms/x/c/8E267B6AC18866C8/AUYUuc9cydRNoeeaOWR5oXk?e=mzrSyd
+# Equivalence Partitioning Testing Exercises
 
-## Description
+## About the Project
 
-This project contains **Equivalence Partitioning (EP) test cases** for different input validation requirements in software testing.
+This project contains **Equivalence Partitioning (EP)** test cases for different application requirements.
 
-Equivalence Partitioning is a black-box testing technique used to divide input data into different groups called **equivalence classes**. Each class contains inputs that are expected to behave similarly.
+Equivalence Partitioning is a software testing technique used to divide input data into different groups or **equivalence classes**. Each class contains inputs that are expected to behave in a similar way.
 
-## Exercises Covered
+For each exercise, valid and invalid input partitions are identified and a suitable test value is provided.
 
-### Exercise 1 – Marks Input
+## Exercises Included
+
+### 1. Marks Input Validation
 
 **Requirement:** Students can enter marks from 0 to 100.
 
-Partitions:
+Equivalence classes:
 
 * Valid: 0–100
 * Invalid: Less than 0
-* Invalid: More than 100
+* Invalid: Greater than 100
 
-### Exercise 2 – ATM Withdrawal
+### 2. ATM Withdrawal Validation
 
-**Requirement:** The ATM allows customers to withdraw ₹500 to ₹20,000.
+**Requirement:** Withdrawal amount must be between ₹500 and ₹20,000.
 
-Partitions:
+Equivalence classes:
 
 * Valid: ₹500–₹20,000
-* Invalid: Less than ₹500
-* Invalid: More than ₹20,000
+* Invalid: Below ₹500
+* Invalid: Above ₹20,000
 
-### Exercise 3 – Username Validation
+### 3. Username Validation
 
 **Requirement:** Username must contain 5 to 15 characters.
 
-Partitions:
+Equivalence classes:
 
 * Valid: 5–15 characters
 * Invalid: Less than 5 characters
 * Invalid: More than 15 characters
 
-### Exercise 4 – Mobile Number Validation
+### 4. Mobile Number Validation
 
 **Requirement:** Mobile number must contain exactly 10 digits.
 
-Partitions:
+Equivalence classes:
 
 * Valid: Exactly 10 digits
 * Invalid: Less than 10 digits
 * Invalid: More than 10 digits
 
-### Exercise 5 – Shopping Cart Quantity
+### 5. Shopping Cart Quantity
 
-**Requirement:** Customer can purchase 1 to 10 items.
+**Requirement:** A customer can purchase 1 to 10 items.
 
-Partitions:
+Equivalence classes:
 
 * Valid: 1–10 items
 * Invalid: Less than 1 item
 * Invalid: More than 10 items
 
-### Exercise 6 – Bank Account Balance
+### 6. Bank Account Balance
 
-**Requirement:** Minimum balance is ₹1,000 and maximum balance is ₹10,00,000.
+**Requirement:** Minimum balance is ₹1,000 and maximum allowed balance is ₹10,00,000.
 
-Partitions:
+Equivalence classes:
 
 * Valid: ₹1,000–₹10,00,000
-* Invalid: Less than ₹1,000
-* Invalid: More than ₹10,00,000
+* Invalid: Below ₹1,000
+* Invalid: Above ₹10,00,000
 
-### Exercise 7 – Employee Salary
+### 7. Employee Salary
 
 **Requirement:** Salary must be between ₹15,000 and ₹2,00,000.
 
-Partitions:
+Equivalence classes:
 
 * Valid: ₹15,000–₹2,00,000
-* Invalid: Less than ₹15,000
-* Invalid: More than ₹2,00,000
+* Invalid: Below ₹15,000
+* Invalid: Above ₹2,00,000
 
-### Exercise 8 – Movie Ticket Booking
+### 8. Movie Ticket Booking
 
-**Requirement:** Customer can book 1 to 6 tickets per transaction.
+**Requirement:** A customer can book 1–6 tickets per transaction.
 
-Partitions:
+Equivalence classes:
 
 * Valid: 1–6 tickets
 * Invalid: Less than 1 ticket
@@ -91,21 +93,21 @@ Partitions:
 
 ## Testing Technique
 
-**Technique Used:** Equivalence Partitioning
+The following approach is used:
 
-Each exercise contains:
+1. Identify the input requirement.
+2. Divide the input range into valid and invalid classes.
+3. Select one representative test value from each class.
+4. Use the values to verify whether the application accepts or rejects the input correctly.
 
-* Valid equivalence class
-* Invalid equivalence class below the allowed range
-* Invalid equivalence class above the allowed range
-* One suitable test value for each class
+## Files Included
 
-## Matrix Requirement
+* `Equivalence_Partitioning_Test_Cases.xlsx` – Contains the EP test cases for all exercises.
 
-The application requirement also includes a square matrix as input. The system calculates eigenvalues and eigenvectors and determines whether the matrix is diagonalizable. If the matrix is diagonalizable, it displays matrices **P** and **D** such that:
+## Objective
 
-`A = P D P⁻¹`
+The objective of this project is to understand and apply **Equivalence Partitioning** in software testing and create effective test cases with minimum but meaningful test values.
 
-## Purpose
+## Conclusion
 
-The purpose of these exercises is to understand how Equivalence Partitioning can reduce the number of test cases while still providing effective input validation coverage.
+Equivalence Partitioning helps reduce the number of test cases while still providing good input coverage. It is useful for identifying valid and invalid input conditions during software testing.
